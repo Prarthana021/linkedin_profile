@@ -1,0 +1,79 @@
+{
+    "name": "Prarthana Shiwakoti",
+    "headline": "Graduate Student at Fordham University | Aspiring Software Engineer",
+    "profilePicture": "https://images.squarespace-cdn.com/content/v1/5cf0d08d5fc69d000172462a/1734444282595-EA4JKOQMALER5DMSUIUR/Professional+LinkedIn+Profile+Headshot+in+London.jpg",
+    "location": "New York, United States",
+    "about": "Passionate about building impactful software solutions with a focus on healthcare and AI.",
+    "education": [
+        {
+            "school": "Fordham University",
+            "degree": "Master of Science",
+            "fieldOfStudy": "Computer Science",
+            "startDate": "2023-09",
+            "endDate": "2025-05",
+            "grade": "3.9/4.0",
+            "activities": [
+                "AI Club",
+                "Graduate Student Council"
+            ],
+            "description": "Focused on machine learning, distributed systems, and software engineering practices."
+        },
+        {
+            "school": "Tribhuvan University",
+            "degree": "Bachelor of Science",
+            "fieldOfStudy": "Information Technology",
+            "startDate": "2018-09",
+            "endDate": "2022-06",
+            "grade": "3.7/4.0",
+            "description": "Built strong fundamentals in data structures, databases, and web development."
+        }
+    ],
+    "experience": [
+        {
+            "title": "Software Engineering Intern",
+            "company": "Zebra Technologies",
+            "location": "Remote",
+            "startDate": "2024-06",
+            "endDate": "2024-08",
+            "description": "Worked on backend APIs and optimized internal tooling using Node.js and MongoDB."
+        },
+        {
+            "title": "Backend Developer Intern",
+            "company": "Nepal Fintech Lab",
+            "location": "Kathmandu, Nepal",
+            "startDate": "2022-01",
+            "endDate": "2022-06",
+            "description": "Developed RESTful APIs and collaborated on a financial dashboard product."
+        }
+    ],
+    "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Python",
+        "Machine Learning"
+    ],
+    "certifications": [
+        {
+            "name": "AWS Certified Cloud Practitioner",
+            "issuer": "Amazon Web Services (AWS)",
+            "date": "2023-11"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Full Professional"
+        },
+        {
+            "language": "Nepali",
+            "proficiency": "Native"
+        }
+    ],
+    "contactInfo": {
+        "email": "prarthana.s@example.com",
+        "linkedin": "https://www.linkedin.com/in/prarthanashiwakoti",
+        "github": "https://github.com/prarthanashiwakoti"
+    }
+}
