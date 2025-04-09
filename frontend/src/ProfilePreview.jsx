@@ -21,7 +21,8 @@ const ProfilePreview = () => {
       </div>
 
       <div className="right-panel">
-        <h1 className="name">{data.name.toUpperCase()}</h1>
+      <h1 className="name">{data.name.toUpperCase().split(' ')[0]}</h1>
+      <h1 className="surname">{data.name.toUpperCase().split(' ')[1]}</h1>
         <h2 className="headline">{data.headline}</h2>
 
         <section className="section">
