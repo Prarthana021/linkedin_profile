@@ -62,8 +62,8 @@ const ProfilePreview = () => {
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent className="timeline-content">
-        <p><strong>{exp.company}</strong> | {exp.startDate} - {exp.endDate}</p>
-        <p><em>{exp.title}</em> — {exp.location}</p>
+        <p><strong>{exp.company}</strong> | {exp.location}</p>
+        <p><em>{exp.title}</em> | {exp.startDate} - {exp.endDate}</p>
         <p>{exp.description}</p>
       </TimelineContent>
     </TimelineItem>

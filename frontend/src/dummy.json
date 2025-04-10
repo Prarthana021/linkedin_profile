@@ -9,8 +9,8 @@
             "school": "Fordham University",
             "degree": "Master of Science",
             "fieldOfStudy": "Computer Science",
-            "startDate": "2023-09",
-            "endDate": "2025-05",
+            "startDate": "2023",
+            "endDate": "2025",
             "grade": "3.9/4.0",
             "activities": [
                 "AI Club",
@@ -22,8 +22,8 @@
             "school": "Tribhuvan University",
             "degree": "Bachelor of Science",
             "fieldOfStudy": "Information Technology",
-            "startDate": "2018-09",
-            "endDate": "2022-06",
+            "startDate": "2018",
+            "endDate": "2022",
             "grade": "3.7/4.0",
             "description": "Built strong fundamentals in data structures, databases, and web development."
         }
@@ -33,16 +33,16 @@
             "title": "Software Engineering Intern",
             "company": "Zebra Technologies",
             "location": "Remote",
-            "startDate": "2024-06",
-            "endDate": "2024-08",
+            "startDate": "2024",
+            "endDate": "2024",
             "description": "Worked on backend APIs and optimized internal tooling using Node.js and MongoDB."
         },
         {
             "title": "Backend Developer Intern",
             "company": "Nepal Fintech Lab",
             "location": "Kathmandu, Nepal",
-            "startDate": "2022-01",
-            "endDate": "2022-06",
+            "startDate": "2022",
+            "endDate": "2022",
             "description": "Developed RESTful APIs and collaborated on a financial dashboard product."
         }
     ],
@@ -58,7 +58,7 @@
         {
             "name": "AWS Certified Cloud Practitioner",
             "issuer": "Amazon Web Services (AWS)",
-            "date": "2023-11"
+            "date": "2023"
         }
     ],
     "languages": [
