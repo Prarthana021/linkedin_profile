@@ -15,13 +15,16 @@
   }
   
   .profile-image {
-    width: 100%;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 0;
-    border: 3px solid #ccc;
+    border-radius: 50%;
+    border: 3px solid #504f4f;
     margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
   
   .contact-section {
     margin-bottom: 30px;
@@ -30,7 +33,7 @@
   
   .contact-section h3 {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     margin-bottom: 10px;
   }
   
@@ -46,7 +49,7 @@
   
   .skills-section h3 {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     margin-bottom: 10px;
   }
   
@@ -82,7 +85,7 @@
   .headline {
     font-size: 18px;
     color: #5a5a5a;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 25px;
     text-align: left;
   }
@@ -94,8 +97,34 @@
   
   .section h3 {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     margin-bottom: 10px;
     font-size: 18px;
+  }
+  .left-aligned-timeline .MuiTimelineItem-root::before {
+    display: none;
+  }
+  
+  .left-aligned-timeline {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  .timeline-content {
+    margin-left: -40px; 
+  }
+  
+  .MuiTimelineDot-root {
+    margin-top: 15px;
+    transform: translateY(15px);
+
+  }
+  
+  .MuiTimelineConnector-root {
+    background-color: #bdbdbd;
+    margin-top: 10px;
+    transform: translateY(10px);
+    
+
   }
   
