@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProfilePreview.css';
 import data from './dummy.json';
+import { FaLinkedin } from 'react-icons/fa'; 
 
 import Timeline from '@mui/lab/Timeline'; 
 import TimelineItem from '@mui/lab/TimelineItem'; 
@@ -20,12 +21,38 @@ const ProfilePreview = () => {
         <div className="contact-section">
           <h3>Contact</h3>
           <p>{data.contactInfo.email}</p>
-          <p><a href={data.contactInfo.linkedin} target="_blank" rel="noopener noreferrer">{data.contactInfo.linkedin}</a></p>
+          <p>
+  <a 
+    href={data.contactInfo.linkedin} 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="linkedin-link"
+  >
+    <span className="linkedin-icon-container">
+      <FaLinkedin 
+        style={{ 
+          marginRight: '8px', 
+          color: '#0077b5', 
+          fontSize: '1.3em', 
+          position: 'relative', 
+          top: '0 px' 
+        }} 
+      />
+    </span>
+    <span style={{ color: 'black', fontWeight: 'normal' }}>LinkedIn Profile</span>
+  </a>
+</p>
         </div>
 
         <div className="skills-section">
-          <h3>Skills</h3>
-          <p>{data.skills.join('  |  ')}</p>
+        <h3>Skills</h3>
+  <p className="skills-list">
+    {data.skills.map((skill, index) => (
+      <span key={index} className="skill-item">
+        {skill}
+      </span>
+    ))}
+  </p>
         </div>
       </div>
 

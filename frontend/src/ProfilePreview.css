@@ -12,7 +12,7 @@
   .left-panel {
     background-color: #d8e7f2;
     padding: 25px;
-    width: 30%;
+    width: 40%;
     text-align: center;
 
   }
@@ -60,6 +60,18 @@
     font-weight: bold;
     color: #333;
   }
+
+  .skills-list {
+    
+    white-space: pre-wrap;
+  }
+  
+  .skill-item {
+    text-transform: uppercase;
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
   
   .right-panel {
     padding: 40px 30px;
@@ -132,5 +144,17 @@
     transform: translateY(10px);
     
 
+  }
+  
+  
+  
+  .linkedin-link:hover {
+    text-decoration: underline;
+    color: #000;
+    
+  }
+  .linkedin-icon-container {
+    display: inline-block; 
+    vertical-align: middle; 
   }
   
