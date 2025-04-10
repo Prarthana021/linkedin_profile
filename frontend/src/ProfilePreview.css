@@ -68,8 +68,17 @@
   
   .skill-item {
     text-transform: uppercase;
-    display: block; 
-    margin-bottom: 5px; 
+    display: inline-block;
+    margin: 6px 6px 6px 0;
+    padding: 8px 14px;
+    font-size: 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
   
   
@@ -145,7 +154,6 @@
     
 
   }
-  
   
   
   .linkedin-link:hover {
