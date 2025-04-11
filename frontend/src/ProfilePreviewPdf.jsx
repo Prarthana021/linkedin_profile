@@ -8,6 +8,8 @@ import {
     Image,
     Link,
   } from "@react-pdf/renderer";
+  import { cleanDescription, getCorrectCompanyName, getLocation } from "./utils";
+
   import data from "./dummy.json";
   import linkedinIcon from "/Users/roublenepalgmail.com/Desktop/linkedin_profile/frontend/src/linkedin_icon.png";
 
@@ -222,10 +224,10 @@ const Footer = () => (
           {data.education.map((edu, index) => (
             <View key={index} style={styles.timelineItem}>
               <Text style={styles.text}>
-                <Text style={styles.boldText}>{edu.school}</Text> | {edu.startDate} - {edu.endDate}
+                <Text style={styles.boldText}>{edu.school_name}</Text> | {edu.years}
               </Text>
               <Text style={styles.text}>
-                {edu.degree} in {edu.fieldOfStudy}
+                {edu.degree}
               </Text>
               <Text style={styles.text}>{edu.description}</Text>
             </View>
@@ -236,12 +238,12 @@ const Footer = () => (
           {data.experience.map((exp, index) => (
             <View key={index} style={styles.timelineItem}>
               <Text style={styles.text}>
-                <Text style={styles.boldText}>{exp.company}</Text> | {exp.location}
+                <Text style={styles.boldText}>{getCorrectCompanyName(exp.company)}</Text> | {getLocation(exp.location)}
               </Text>
               <Text style={styles.text}>
-                <Text style={styles.italicText}>{exp.title}</Text> | {exp.startDate} - {exp.endDate}
+                <Text style={styles.italicText}>{exp.title}</Text> | {exp.start_date} - {exp.end_date}
               </Text>
-              <Text style={styles.text}>{exp.description}</Text>
+              <Text style={styles.text}>{cleanDescription(exp.description)}</Text>
             </View>
           ))}
         </View>
