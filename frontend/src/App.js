@@ -4,6 +4,7 @@ import ProfilePreview from "./ProfilePreview";
 import MyDocument from "./ProfilePreviewPdf";
 import { pdf } from "@react-pdf/renderer";
 import { saveAs } from "file-saver";
+import { FaFilePdf } from "react-icons/fa";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div> */}
       <ProfilePreview profile={profileData}></ProfilePreview>
       <button
+       className="pdf-generate-button" 
         onClick={async () => {
           const doc = <MyDocument />;
           const asPdf = pdf({});
@@ -21,6 +23,7 @@ function App() {
           saveAs(blob, "document.pdf");
         }}
       >
+        <FaFilePdf className="pdf-icon" /> 
         Download PDF
       </button>
     </div>

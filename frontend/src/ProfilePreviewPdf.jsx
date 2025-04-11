@@ -1,3 +1,4 @@
+//to do : header footer 
 import {
     Document,
     Page,
@@ -8,7 +9,8 @@ import {
     Link,
   } from "@react-pdf/renderer";
   import data from "./dummy.json";
-  
+  import linkedinIcon from "/Users/roublenepalgmail.com/Desktop/linkedin_profile/frontend/src/linkedin_icon.png";
+
   const styles = StyleSheet.create({
     page: {
       flexDirection: "row",
@@ -93,40 +95,109 @@ import {
       marginTop: 5,
       fontSize: 10,
     },
+    linkedinIcon: {
+        width: 12,
+        height: 12,
+        marginRight: 5,
+        marginTop:5,
+      },
     text: {
       fontSize: 10,
-      marginBottom: 5,
-      lineHeight: 1.4,
+      marginBottom: 10,
+      lineHeight: 1.6,
     },
     name: {
-      fontSize: 24,
-      fontWeight: 'bold',
-      marginBottom: 15,
-      textTransform: 'uppercase',
-    },
+        fontSize: 24,
+        marginBottom: 0,
+        color: '#000000',
+        fontFamily: 'Courier-Bold',
+        textAlign: 'left',
+        textTransform: 'uppercase',
+      },
+      surname: {
+        fontSize: 24,
+        marginTop: 0,
+        color: '#1f83c2',
+        fontFamily: 'Courier-Bold',
+        marginBottom: 20,
+   
+        textAlign: 'left',
+        textTransform: 'uppercase',
+      },
     timelineItem: {
-      marginBottom: 15,
+      marginBottom: 20,
     },
     boldText: {
       fontWeight: 'bold',
-    }
+    },
+    italicText:{
+        fontStyle: 'italic',
+    },
+    header: {
+        position: 'absolute',
+        top: 5,
+        right: 60,
+        fontSize: 10,
+        fontFamily: 'Courier-Oblique',
+        color: '#666',
+    },
+    footer: {
+        position: 'absolute',
+        bottom: 20,
+        left: 0,
+        right: 0,
+        textAlign: 'center',
+        fontSize: 10,
+        color: '#666',
+    },
+    pageNumber: {
+        position: 'absolute',
+        fontSize: 10,
+        bottom: 20,
+        left: 0,
+        right: 0,
+        textAlign: 'center',
+        color: '#666',
+    },
   });
   
+  const Header = ({ name }) => (
+    <View style={styles.header} fixed>
+        <Text>{name.split(' ')[0]}</Text>
+    </View>
+);
+
+// Create a component for the footer
+const Footer = () => (
+    <View style={styles.footer} fixed>
+        <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => (
+            `Page ${pageNumber} of ${totalPages}`
+        )} />
+    </View>
+);
+
   const MyDocument = () => (
     <Document>
       <Page size="A4" style={styles.page}>
+      <Header name={data.name} />
+      <Footer />
         {/* Left Panel */}
         <View style={styles.leftPanel}>
           <Image src={data.profilePicture} style={styles.profileImage} />
   
-          {/* Contact Section */}
           <View style={styles.contactSection}>
-            <Text style={styles.sectionTitle}>Contact</Text>
-            <Text style={styles.text}>{data.contactInfo.email}</Text>
-            <Link src={data.contactInfo.linkedin} style={styles.link}>
+          <Text style={styles.sectionTitle}>Contact</Text>
+          <Text style={styles.text}>{data.contactInfo.email}</Text>
+          <Link src={data.contactInfo.linkedin} style={styles.link}>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+              <Image 
+                src={linkedinIcon} 
+                style={styles.linkedinIcon}
+              />
               <Text style={styles.linkedinText}>LinkedIn Profile</Text>
-            </Link>
-          </View>
+            </View>
+          </Link>
+        </View>
   
           {/* Skills Section */}
           <View style={styles.skillsSection}>
@@ -143,7 +214,8 @@ import {
   
         {/* Right Panel */}
         <View style={styles.rightPanel}>
-          <Text style={styles.name}>{data.name}</Text>
+        <Text style={styles.name}>{data.name.split(' ')[0]}</Text>
+        <Text style={styles.surname}>{data.name.split(' ').slice(1).join(' ')}</Text>
   
           {/* Education */}
           <Text style={styles.sectionTitle}>Education</Text>
@@ -167,7 +239,7 @@ import {
                 <Text style={styles.boldText}>{exp.company}</Text> | {exp.location}
               </Text>
               <Text style={styles.text}>
-                <Text style={styles.boldText}>{exp.title}</Text> | {exp.startDate} - {exp.endDate}
+                <Text style={styles.italicText}>{exp.title}</Text> | {exp.startDate} - {exp.endDate}
               </Text>
               <Text style={styles.text}>{exp.description}</Text>
             </View>

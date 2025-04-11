@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+
+.pdf-generate-button {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1f83c2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.pdf-generate-button:hover {
+  background-color: #1565a3;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.pdf-generate-button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+.pdf-icon {
+  font-size: 18px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
