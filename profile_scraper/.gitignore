@@ -1,0 +1,11 @@
+user-data-dir
+env
+node_modules
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.png
