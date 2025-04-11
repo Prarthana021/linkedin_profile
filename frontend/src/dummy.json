@@ -1,79 +1,62 @@
 {
-    "name": "Prarthana Shiwakoti",
-    "headline": "Graduate Student at Fordham University | Aspiring Software Engineer",
-    "profilePicture": "https://images.squarespace-cdn.com/content/v1/5cf0d08d5fc69d000172462a/1734444282595-EA4JKOQMALER5DMSUIUR/Professional+LinkedIn+Profile+Headshot+in+London.jpg",
-    "location": "New York, United States",
-    "about": "Passionate about building impactful software solutions with a focus on healthcare and AI.",
-    "education": [
-        {
-            "school": "Fordham University",
-            "degree": "Master of Science",
-            "fieldOfStudy": "Computer Science",
-            "startDate": "2023",
-            "endDate": "2025",
-            "grade": "3.9/4.0",
-            "activities": [
-                "AI Club",
-                "Graduate Student Council"
-            ],
-            "description": "Focused on machine learning, distributed systems, and software engineering practices."
-        },
-        {
-            "school": "Tribhuvan University",
-            "degree": "Bachelor of Science",
-            "fieldOfStudy": "Information Technology",
-            "startDate": "2018",
-            "endDate": "2022",
-            "grade": "3.7/4.0",
-            "description": "Built strong fundamentals in data structures, databases, and web development."
-        }
-    ],
-    "experience": [
-        {
-            "title": "Software Engineering Intern",
-            "company": "Zebra Technologies",
-            "location": "Remote",
-            "startDate": "2024",
-            "endDate": "2024",
-            "description": "Worked on backend APIs and optimized internal tooling using Node.js and MongoDB."
-        },
-        {
-            "title": "Backend Developer Intern",
-            "company": "Nepal Fintech Lab",
-            "location": "Kathmandu, Nepal",
-            "startDate": "2022",
-            "endDate": "2022",
-            "description": "Developed RESTful APIs and collaborated on a financial dashboard product."
-        }
-    ],
-    "skills": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Python",
-        "Machine Learning"
-    ],
-    "certifications": [
-        {
-            "name": "AWS Certified Cloud Practitioner",
-            "issuer": "Amazon Web Services (AWS)",
-            "date": "2023"
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "proficiency": "Full Professional"
-        },
-        {
-            "language": "Nepali",
-            "proficiency": "Native"
-        }
-    ],
-    "contactInfo": {
-        "email": "prarthana.s@example.com",
-        "linkedin": "https://www.linkedin.com/in/prarthanashiwakoti",
-        "github": "https://github.com/prarthanashiwakoti"
+  "name": "Kevin Quadros",
+  "profilePicture": "https://media.licdn.com/dms/image/v2/D4E03AQHMWOi0eNoOFQ/profile-displayphoto-shrink_400_400/B4EZOueyk4HEAg-/0/1733799128000?e=1749686400&v=beta&t=RCxLYskddKbDodQRujL7iDOI6GVBVTnFr2gesE1KzPU",
+  "experience": [
+    {
+      "title": "HR Operations Intern",
+      "company": "Fox Corporation · Internship\nFox Corporation · Internship",
+      "start_date": "Feb 2025",
+      "end_date": "Present",
+      "location": "New York, New York, United States\nNew York, New York, United States",
+      "description": ""
+    },
+    {
+      "title": "Product Management Intern",
+      "company": "First Horizon Bank · Internship\nFirst Horizon Bank · Internship",
+      "start_date": "Jun 2024",
+      "end_date": "Aug 2024",
+      "location": "New Orleans, Louisiana, United States\nNew Orleans, Louisiana, United States",
+      "description": ""
+    },
+    {
+      "title": "Information Systems Intern",
+      "company": "Ochsner Health · Internship\nOchsner Health · Internship",
+      "start_date": "May 2022",
+      "end_date": "Aug 2022",
+      "location": "Kenner, Louisiana, United States\nKenner, Louisiana, United States",
+      "description": ""
+    },
+    {
+      "title": "Information Security Intern",
+      "company": "b1BANK · Internship\nb1BANK · Internship",
+      "start_date": "Mar 2021",
+      "end_date": "Jul 2021",
+      "location": "Baton Rouge, Louisiana, United States\nBaton Rouge, Louisiana, United States",
+      "description": ""
     }
+  ],
+  "education": [
+    {
+      "school_name": "Fordham University",
+      "degree": "Data Science (M.S.)",
+      "years": "Aug 2023 - May 2025"
+    },
+    {
+      "school_name": "Louisiana State University",
+      "degree": "Information Systems and Decision Sciences (B.S.)",
+      "years": "Aug 2020 - May 2023"
+    },
+    {
+      "school_name": "Archbishop Rummel High School",
+      "degree": "High School Diploma",
+      "years": "May 2019"
+    }
+  ],
+  "skills": [],
+  "contactInfo": {
+    "linkedin": "https://www.linkedin.com/in/kevin-quadros-397a88247"
+  },
+  "location": "Baton Rouge, Louisiana, United States\nBaton Rouge, Louisiana, United States",
+  "about_me_description": "Honors Computer Science Student at Fordham University\nHonors Computer Science Student at Fordham University Pre nursing Student at Houston Community College\nPre nursing Student at Houston Community College Data Analyst | Data Scientist | Data Engineer | Analytics Engineer | Healthcare Analytics\nData Analyst | Data Scientist | Data Engineer | Analytics Engineer | Healthcare Analytics Graduate Student at Fordham Gabelli School of Business - MSIT (Master of Science in Information Technology)\nGraduate Student at Fordham Gabelli School of Business - MSIT (Master of Science in Information Technology) Graduate Student at Florida International University || MA in Cybersecurity & Technology Policy \nGraduate Student at Florida International University || MA in Cybersecurity & Technology Policy  Operations Analyst\nOperations Analyst Commercial Real Estate Broker\nCommercial Real Estate Broker Grad Student @ NYU | Ex-SDE1@ PaytmMoney | Ex- SDE Intern @ PaytmMoney | IT, HBTU'22 | SIH'20 First Runner Up\nGrad Student @ NYU | Ex-SDE1@ PaytmMoney | Ex- SDE Intern @ PaytmMoney | IT, HBTU'22 | SIH'20 First Runner Up Software Engineer @ HL Health | AI Engineer | SUNY Stony Brook | BITS Pilani\nSoftware Engineer @ HL Health | AI Engineer | SUNY Stony Brook | BITS Pilani Director of Engineering, Emerging Tech @ Fox\nDirector of Engineering, Emerging Tech @ Fox Senior Vice President of Digital Product at Fox Corporation\nSenior Vice President of Digital Product at Fox Corporation Sr. Director, Talent Acquisition for FOX Sports at FOX Corporation\nSr. Director, Talent Acquisition for FOX Sports at FOX Corporation Manager, Recruitment & Onboarding Operations at Fox Corporation\nManager, Recruitment & Onboarding Operations at Fox Corporation Recruiter, Campus & Studio Ops at Fox Corporation.\nRecruiter, Campus & Studio Ops at Fox Corporation. Events Services\nEvents Services Software Development\nSoftware Development",
+  "headline": "Data Science Graduate Student @ Fordham University"
 }
